@@ -1,3 +1,6 @@
+from flask import Flask
+from frontend.server import app
+
 import logging
 
 
