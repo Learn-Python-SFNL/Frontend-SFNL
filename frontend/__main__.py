@@ -1,5 +1,5 @@
 from flask import Flask
-from server import app
+from frontend.server import app
 
 import logging
 
