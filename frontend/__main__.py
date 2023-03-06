@@ -1,3 +1,6 @@
+from flask import Flask
+from frontend.server import app
+
 import logging
 
 
@@ -8,6 +11,5 @@ def main():
     logging.basicConfig(level=logging.INFO)
     logger.info('hello world')
 
-
 if __name__=="__main__":
-    main()
+    app.run(debug=True)
